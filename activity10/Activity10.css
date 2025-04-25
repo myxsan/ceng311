@@ -1,0 +1,15 @@
+.form-field {
+    display: grid;
+    grid-template-columns: max-content 200px;
+    gap: 10px 20px;
+    align-items: center;
+  }
+
+label {
+    text-align: left;
+}
+
+input[type="submit"] {
+    grid-column: 2; /* align submit button under the input fields */
+    width: 100px;
+}
